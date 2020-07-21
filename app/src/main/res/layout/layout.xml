@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#ffffff"
+    app:cardMaxElevation="5dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardElevation="5dp"
+    android:layout_height="220dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+        <TextView
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:textColor="#34121212"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_shareDate"/>
+        <TextView
+            android:layout_marginRight="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_niceData"/>
+        <TextView
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_title"/>
+        <TextView
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="10sp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_superChapterName"/>
+        <ImageView
+            android:layout_marginRight="15sp"
+            android:layout_marginBottom="30sp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/iv_envelopePic"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
